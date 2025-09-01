@@ -1,1 +1,225 @@
-p
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream - Botol Minum Profesional & Stylish</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f5f7;
+            color: #333;
+            line-height: 1.6;
+        }
+        .header {
+            background-color: #fff;
+            padding: 30px 20px;
+            text-align: center;
+            border-bottom: 5px solid #4a90e2;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 3em;
+            color: #4a90e2;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-weight: 700;
+        }
+        .header p {
+            font-size: 1.2em;
+            color: #666;
+            margin-top: 10px;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .product-card {
+            background-color: #f9fbfd;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+        .product-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+        .product-card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-bottom: 1px solid #eee;
+        }
+        .card-content {
+            padding: 25px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .card-content h2 {
+            font-size: 1.8em;
+            color: #333;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        .card-content p {
+            font-size: 1em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #4a90e2;
+            color: #fff;
+            padding: 12px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: background-color 0.3s ease;
+            align-self: center;
+        }
+        .btn:hover {
+            background-color: #357bd6;
+        }
+        .section-title {
+            text-align: center;
+            font-size: 2.2em;
+            color: #333;
+            margin: 60px 0 30px;
+            font-weight: 600;
+        }
+        .features-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            text-align: center;
+        }
+        .feature-item {
+            background-color: #f9fbfd;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+        .feature-item h4 {
+            font-size: 1.2em;
+            color: #4a90e2;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        .footer {
+            text-align: center;
+            padding: 30px;
+            margin-top: 50px;
+            background-color: #333;
+            color: #fff;
+            font-size: 0.9em;
+            border-top: 5px solid #4a90e2;
+        }
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2.5em;
+            }
+            .container {
+                margin: 20px auto;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>DREAM</h1>
+        <p>Botol Minum yang Menggabungkan Gaya dan Fungsionalitas</p>
+    </div>
+
+    <div class="container">
+        <h2 class="section-title">Koleksi Produk Kami</h2>
+        <div class="product-grid">
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/400x400.png?text=Dream+Professional" alt="Botol Minum Dream Professional">
+                <div class="card-content">
+                    <div>
+                        <h2>Dream Professional</h2>
+                        <p>Dibuat untuk para profesional yang menghargai keanggunan. Desain minimalis, permukaan yang halus, dan insulasi ganda untuk menjaga suhu minuman Anda sepanjang hari.</p>
+                    </div>
+                    <a href="#" class="btn">Lihat Detail</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/400x400.png?text=Dream+Active" alt="Botol Minum Dream Active">
+                <div class="card-content">
+                    <div>
+                        <h2>Dream Active</h2>
+                        <p>Teman setia Anda saat berolahraga. Tutup anti-bocor, bahan yang tahan banting, dan pegangan ergonomis memastikan kenyamanan dan ketahanan dalam setiap aktivitas.</p>
+                    </div>
+                    <a href="#" class="btn">Lihat Detail</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/400x400.png?text=Dream+Traveler" alt="Botol Minum Dream Traveler">
+                <div class="card-content">
+                    <div>
+                        <h2>Dream Traveler</h2>
+                        <p>Botol serbaguna yang dirancang untuk perjalanan. Ringan, mudah dibawa, dan dilengkapi dengan filter infuser yang dapat dilepas untuk membuat air infus buah favorit Anda.</p>
+                    </div>
+                    <a href="#" class="btn">Lihat Detail</a>
+                </div>
+            </div>
+
+        </div>
+        
+        <h2 class="section-title">Keunggulan Dream</h2>
+        <div class="features-section">
+            <div class="feature-item">
+                <i class="fa fa-leaf"></i>
+                <h4>Material Bebas BPA</h4>
+                <p>Aman untuk kesehatan Anda dan keluarga, bebas dari zat berbahaya.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fa fa-thermometer-half"></i>
+                <h4>Isolasi Suhu Optimal</h4>
+                <p>Menjaga minuman panas hingga 12 jam dan dingin hingga 24 jam.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fa fa-tint"></i>
+                <h4>Tahan Bocor & Tumpah</h4>
+                <p>Tutup yang dirancang presisi untuk penggunaan tanpa khawatir.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fa fa-magic"></i>
+                <h4>Desain Elegan</h4>
+                <p>Paduan fungsionalitas dan estetika yang sempurna untuk setiap gaya hidup.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Dream. All Rights Reserved.</p>
+        <p>Dibuat dengan semangat dan dedikasi.</p>
+    </div>
+
+</body>
+</html>
